@@ -5,18 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {
+        body { /*
             height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+               */
+            /* shorthand - background 
+               color > image > position > repeat > [size] > attachment 
+            */
+            background: black  url(imagens/wallpaper002.jpg) no-repeat center center/cover fixed;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,6 +33,9 @@
 <body>
     <main>
         <h1>Testee de Imagem de Fundo</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae provident error culpa, inventore saepe mollitia officiis aliquid ducimus veniam. Sit atque excepturi quidem ad accusantium repellat repudiandae eos laborum fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non sed porro explicabo laboriosam vitae, voluptates eligendi a quae quo dolores rerum ab deleniti excepturi aliquid perferendis? Sint sequi laudantium quibusdam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam deleniti reprehenderit quisquam tempora nisi sed eos debitis voluptatem exercitationem officia, molestiae eveniet ratione. Placeat amet quas est, unde nisi nobis!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae provident error culpa, inventore saepe mollitia officiis aliquid ducimus veniam. Sit atque excepturi quidem ad accusantium repellat repudiandae eos laborum fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non sed porro explicabo laboriosam vitae, voluptates eligendi a quae quo dolores rerum ab deleniti excepturi aliquid perferendis? Sint sequi laudantium quibusdam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam deleniti reprehenderit quisquam tempora nisi sed eos debitis voluptatem exercitationem officia, molestiae eveniet ratione. Placeat amet quas est, unde nisi nobis!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae provident error culpa, inventore saepe mollitia officiis aliquid ducimus veniam. Sit atque excepturi quidem ad accusantium repellat repudiandae eos laborum fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non sed porro explicabo laboriosam vitae, voluptates eligendi a quae quo dolores rerum ab deleniti excepturi aliquid perferendis? Sint sequi laudantium quibusdam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam deleniti reprehenderit quisquam tempora nisi sed eos debitis voluptatem exercitationem officia, molestiae eveniet ratione. Placeat amet quas est, unde nisi nobis!</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae provident error culpa, inventore saepe mollitia officiis aliquid ducimus veniam. Sit atque excepturi quidem ad accusantium repellat repudiandae eos laborum fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non sed porro explicabo laboriosam vitae, voluptates eligendi a quae quo dolores rerum ab deleniti excepturi aliquid perferendis? Sint sequi laudantium quibusdam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam deleniti reprehenderit quisquam tempora nisi sed eos debitis voluptatem exercitationem officia, molestiae eveniet ratione. Placeat amet quas est, unde nisi nobis!</p>
     </main>
 </body>
